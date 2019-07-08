@@ -1,0 +1,49 @@
+/*!
+ * Start Bootstrap - Blog Home (https://startbootstrap.com/template-overviews/blog-home)
+ * Copyright 2013-2019 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-blog-home/blob/master/LICENSE)
+ */
+body {
+  padding-top: 56px;
+}
+
+.navi-bg-393e46 { background-color: #393e46; border-bottom: 2px solid #ff5733;}
+.footer-bg-393e46 { background-color: #393e46; border-top: 2px solid #ff5733;}
+.border-line-color-ff5733 { border-color: #ff5733;}
+.card {border: none;}
+.card-header {background-color: #fff; border-bottom: 1px solid #ff5733; color:solid #ff5733; }
+.card a {color:#393e46}
+.card a.active {color:#ff5733;}
+
+ul.timeline {
+    list-style-type: none;
+    position: relative;
+}
+ul.timeline:before {
+    content: ' ';
+    background: #d4d9df;
+    display: inline-block;
+    position: absolute;
+    left: 29px;
+    width: 2px;
+    height: 100%;
+    z-index: 400;
+}
+ul.timeline > li {
+    margin: 30px 0px;
+    padding-left: 20px;
+}
+ul.timeline > li:before {
+    content: ' ';
+    background: white;
+    display: inline-block;
+    position: absolute;
+    border-radius: 50%;
+    border: 3px solid #ff5733;
+    left: 20px;
+    width: 20px;
+    height: 20px;
+    z-index: 400;
+}
+ul.timeline > li a {color: #ef6c57; font-size: 22px; margin-top: -5px; font-weight: 400;}
+ul.timeline > li p {clear: both;display: inline-block; padding: 10px 0px; font-size: 18px;}
